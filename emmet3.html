@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- parent child means element inside another element -->
+    <!-- ex- div>ul>li>li>li  -->
+    <div>
+        <ul>
+            <li>
+                <li>
+                    <li></li>
+                </li>
+            </li>
+        </ul>
+    </div>
+
+    <!-- adding sibling means elemens that have the same parent  -->
+    <!-- ex- div>li>p+p+p -->
+    <div>
+        <li>
+            <p></p>
+            <p></p>
+            <p></p>
+        </li>
+    </div>
+
+    <!-- multiplication of elements  -->
+    <!-- ex- div>ul>li*5 it will gives 5 list under ul -->
+    <div>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <!-- grouping must be placed around the tags that will be gatherd () -->
+<!-- ex- div>(ul>li>nav>li*3)+footer>p -->
+<div>
+    <ul>
+        <li>
+            <nav>
+                <li></li>
+                <li></li>
+                <li></li>
+            </nav>
+        </li>
+    </ul>
+    <footer>
+        <p></p>
+    </footer>
+</div>
+</body>
+</html>

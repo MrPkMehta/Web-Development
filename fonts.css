@@ -1,0 +1,10 @@
+body{
+    background-color: #808080;
+    /*  compulsary to load the font family from goole fonts*/
+    font-family: 'Roboto Slab', serif;
+}
+.h1{
+    border: solid black;
+    text-align: center;
+    background-color: green;
+}

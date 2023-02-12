@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class</title>
+    <style>
+        /* hover means when you move curser to that line it blinks changes in color are seen */
+.hover:hover{
+        background-color: yellow;
+        color: red;
+}
+
+/* After moving the cursor what are the changes are done is controlled fy focus, it is mostly used in input*/
+input:focus{
+    color: brown;
+    background-color: black;
+    font-size: 30px;
+}
+/* when the cursor is move on that part some changes are seen */
+a:hover{
+    color: fuchsia;
+}
+/* when click on link it changes in color for a second  */
+a:active{
+    color: black;
+}
+/* after visiting to that link its color changes to the color given */
+a:visited{
+    color: darkgreen;
+}
+
+
+a:nth-child(2n+1) {
+    background-color: yellow;
+}
+
+/* Pseudo elements : and :: */
+p::first-line{
+ color: rgb(255, 153, 0);
+ background-color: black;
+ 
+}
+p::first-letter{
+    color: aqua;
+}
+p::after{
+    content: "-priyamanshu";
+    color: aqua;
+    
+}p::before{
+    content: "PK";
+}
+    </style>
+    
+</head>
+<body>
+    <p class="hover">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, vitae!</p>
+    <input type="text">
+    <hr>
+    <nav>
+        <a href="https://www.pexels.com/">pexels</a>
+        <a href="https://www.pexels.com/">pexels</a>
+        <a href="https://www.pexels.com/">pexels</a>
+        <a href="https://www.pexels.com/">pexels</a>
+    </nav>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eos omnis, blanditiis corrupti et odit, odio ad temporibus saepe, consequuntur nobis? Necessitatibus commodi esse blanditiis ipsam animi aperiam nisi? Distinctio eos unde eveniet repellendus architecto reiciendis eum, expedita nemo odit laboriosam temporibus hic nesciunt, quibusdam laborum? Facere maiores incidunt voluptatibus.</p>
+   
+</body>
+</html>

@@ -1,0 +1,52 @@
+@media (max-width: 600px){ 
+    /* this is for mobile phone till 600 width  */
+    body{
+        background-color: red;
+    }
+    div::after {
+        content: 'This is mobile compaitible';
+    }
+}
+@media(min-width: 600px){
+    /* this is for potrain tablet or big phones after 600 to 768px*/
+    body{
+        background-color:aqua ;
+    }
+    div::after{
+        content: 'This is for potrait tablet and big phones';
+    }
+}
+@media(min-width: 768px){ /*  */
+    /* this is for tablets after 768px to 992px */
+    body{
+        background-color: blueviolet;
+    }
+    div::after{
+        content: 'This is for tablets';
+    }
+}
+@media(min-width: 992px){
+    /* This is for laptops from 992px to 1200px  */
+    body{
+        background-color: chartreuse;
+
+    }
+    div::after{
+        content: 'This is for laptops';
+    }
+}
+    @media(min-width: 1200px){
+        /* This is for large screen from 1200px to last  */
+        body{
+            background-color: black;
+            color: darkturquoise;
+        }
+        div::after{
+            content: 'This is for large screen';
+        }
+    }
+
+div {
+    text-align: center;
+    font-size: x-large;
+}

@@ -1,0 +1,57 @@
+body{
+    background-color: red;
+}
+
+div{
+    font-size: x-large;
+    text-align: center;
+}
+
+div::after{
+    content: "welcome to the demo"
+}
+/* @meadia is used to start the media query */
+/* max width 400 means 400 or less than 400 then applay this means till this*/
+@media (max-width: 400px)
+{
+body {background-color: black;
+    color: aqua;
+    
+}
+div::after {
+    content: 'very small'
+}
+}
+/* min width 500 means after 500px the color will changes than applay means after this*/
+@media (min-width: 500px) {
+    /* if the viewport is atleast 900px then this style will applay*/
+    body{
+        background-color: blue;
+    }
+    div::after {
+        content: 'smaller screen'
+    }
+}
+/* we can also define the range like this👇 */
+@media (600px<= width <=900px) 
+{
+    body{
+        background-color: darkgoldenrod;
+        
+    }
+    div::after {
+       content: 'range 500 to 900'
+    }
+}
+
+/* @meadia is used to start the media query */
+@media (min-width: 900px) and (max-width: 1000) {
+    /* if the viewport is atleast 900px then this style will applay*/
+    body{
+        background-color: aqua;
+    }
+    div::after {
+        content: 'wow its working'
+    }
+}
+

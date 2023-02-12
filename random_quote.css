@@ -1,0 +1,75 @@
+body {
+    background-image: url(download.jpg);
+    background-size: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  #background {
+    display: contents;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #tagline {
+    font-size: 36px;
+    color: white;
+    margin-top: 200px;
+    text-shadow: 1px 1px black;
+  }
+  
+  #quote-box {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* existing quote box styles go here */
+  
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    
+        background-image: url(background.jpg);
+        background-size: cover;
+        font-family: Arial, sans-serif;
+        
+            background: linear-gradient(to bottom, #f7b733, #fc4a1a);
+            font-family: Arial, sans-serif;
+          }
+          
+      
+      
+  
+  
+  #quote-box {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(34, 189, 62);
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #text {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #author {
+    font-size: 18px;
+    color: gray;
+  }
+  
+  button {
+    background-color: rgb(20, 26, 221);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

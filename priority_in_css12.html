@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prioriety in css</title>
+    <!-- if we chnage the sequence then the priority is changed -->
+    <link rel="stylesheet" href="external.css">
+    <style>
+        body{
+            background-color: grey;
+        }
+    </style>
+</head>
+<!-- in this the priority is given to the the inline then internal then external -->
+<body style="background-color: darkgoldenrod;">
+    <h1>Pw Skills</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <h4>
+       footer
+    </h4>
+</body>
+</html>
