@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid album</title>
+    <style>
+        .containr {
+            display: grid;
+            height: 900px;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 300px);
+            border: black dotted;
+        }
+        .heading{
+            background-color: aqua;
+            text-align: center;
+            border: dotted black;
+        }
+        .box {
+            /* height: 100px;
+            width: 100px; */
+          
+        }
+        .box1 {
+            background-color: red;
+            /* grid-row-start: 1;
+            grid-row-end: 3; */
+            overflow: scroll;
+            
+        }
+        .box2 {
+            background-color: aqua;
+            overflow: scroll;
+        }
+        .box3 {
+            background-color: blue;
+            overflow: scroll;
+        }
+        .box4 {
+            background-color: brown;
+            overflow: scroll;
+            /* grid-column-start: 2;
+            grid-column-end: 5; */
+        }
+        .box5 {
+            background-color: cadetblue;
+            overflow: scroll;
+        }
+        .box6 {
+            background-color: chartreuse;
+            overflow: scroll;
+        }
+        .box7 {
+            background-color: darkgoldenrod;
+            overflow: scroll;
+        }
+        .box8 {
+            background-color: hotpink;
+            overflow: scroll;
+        }
+        .box9 {
+            background-color: teal;
+            overflow: scroll;
+          
+        }
+    </style>
+</head>
+<body>
+    <!-- grid album -->
+    
+    <h1 class="heading"> Romantic Album</h1>
+    <div class="containr">
+        <div class="box box1">
+            <img src="https://images.pexels.com/photos/1024960/pexels-photo-1024960.jpeg?auto=compress&cs=tinysrgb&w=600" alt="couple">
+        </div>
+        <div class="box box2"><img src="https://images.pexels.com/photos/853406/pexels-photo-853406.jpeg?auto=compress&cs=tinysrgb&w=600" alt="kissing"></div>
+        <div class="box box3"><img src="https://images.pexels.com/photos/238622/pexels-photo-238622.jpeg?auto=compress&cs=tinysrgb&w=600" alt="romantic"></div>
+        <div class="box box4"><img src="https://images.pexels.com/photos/1024975/pexels-photo-1024975.jpeg?auto=compress&cs=tinysrgb&w=600" alt="liplock"></div>
+        <div class="box box5"><img src="https://images.pexels.com/photos/792726/pexels-photo-792726.jpeg?auto=compress&cs=tinysrgb&w=600" alt="hugging"></div>
+        <div class="box box6"><img src="https://images.pexels.com/photos/285938/pexels-photo-285938.jpeg?auto=compress&cs=tinysrgb&w=600" alt="beach"></div>
+        <div class="box box7"><img src="https://images.pexels.com/photos/4009040/pexels-photo-4009040.jpeg?auto=compress&cs=tinysrgb&w=600" alt="romance"></div>
+        <div class="box box8"><img src="https://images.pexels.com/photos/2055225/pexels-photo-2055225.jpeg?auto=compress&cs=tinysrgb&w=600" alt="happy"></div>
+        <div class="box box9"><img src="https://images.pexels.com/photos/3692759/pexels-photo-3692759.jpeg?auto=compress&cs=tinysrgb&w=600" alt="romance"></div>
+    </div>
+</body>
+</html>
